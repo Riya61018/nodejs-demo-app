@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = 'nodejs-demo-app'
         CONTAINER_NAME = 'nodejs-app-container'
-        APP_PORT = '5000'
+        APP_PORT = '3000'
     }
 
     stages {
